@@ -310,7 +310,7 @@ justify-content: space-around;
 
 
 .reviews {
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     text-align: center;
 }
 
@@ -318,7 +318,7 @@ justify-content: space-around;
     font-family: 'TT Firs Nuen';
     font-weight: 550;
     font-size: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
     /*Слайдер*/
@@ -355,7 +355,7 @@ justify-content: space-around;
   }
 
 .block-margin {
-    height: 30px;
+    height: 70px;
   }
 
   .swiper-button-prev {
