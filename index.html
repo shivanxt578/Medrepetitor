@@ -6,9 +6,8 @@
     <title>Medrepetitor</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
-<body>
-    <header class="header">
         <div class="container">
             <div class="header-nav">
                 <a href="#!" class="logo"><img src="./img/header/logo.svg"></a>
@@ -121,7 +120,44 @@
             </div>
         </div>
     </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="review-title">Отзывы учеников</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/reviews/review-1.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-2.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-3.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-4.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-5.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-6.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-7.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/reviews/review-8.png" alt=""></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="block-margin"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </section>
 
-    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+},
+  // Другие настройки...
+});
+</script>
 </body>
 </html>

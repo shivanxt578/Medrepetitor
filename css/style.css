@@ -281,7 +281,7 @@ justify-content: space-around;
 }
 
 .platform {
-    margin-bottom: 90px;
+    margin-bottom: 150px;
 
 }
 
@@ -307,3 +307,61 @@ justify-content: space-around;
 .platform-image {
     width: 800px;
 }
+
+
+.reviews {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.review-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+    /*Слайдер*/
+
+.swiper {
+    width: 600px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    cursor: pointer;
+}
+
+.swiper-slide {
+    text-align: center;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+      position: absolute;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+.swiper-pagination-bullet {
+    background-color: #999;
+  }
+  
+.swiper-pagination-bullet-active {
+    background-color: #333;
+  }
+
+.block-margin {
+    height: 30px;
+  }
+
+  .swiper-button-prev {
+    left: 0;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+  }
