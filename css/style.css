@@ -90,6 +90,7 @@ body {
 
 
 .header-heading {
+    padding-top: 50px;
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 54px;
@@ -138,10 +139,6 @@ body {
     font-size: 25px;
 }
 
-.korobov_oleg-photo {
-
-}
-
 .advantages {
     padding: 90px 0;
 }
@@ -187,12 +184,10 @@ body {
 }
 
 .principles_descr {
-    font-family: 'TT Firs Nuen';
+    font-family: 'TT Firs Nuen Light';
     font-size: 25px;
     margin-bottom: 15px;
 }
-
-
 
 .course {
     padding: 90px 0;
@@ -204,10 +199,6 @@ body {
     font-weight: 550;
     font-size: 45px;
     margin-bottom: 50px;
-}
-
-.course_blocks {
-
 }
 
 .course-top-block {
@@ -250,7 +241,6 @@ justify-content: space-around;
     width: 450px
 }
 
-
 .course-card-title {
     font-family: 'TT Firs Nuen';
     font-weight: 500;
@@ -258,7 +248,6 @@ justify-content: space-around;
     margin-bottom: 10px;
     padding-top: 40px;
 }
-
 
 .course-card-descr {
     font-family: 'TT Firs Nuen Light';
@@ -348,9 +337,8 @@ justify-content: space-around;
     width: 800px;
 }
 
-
 .reviews {
-    margin-bottom: 90px;
+    margin-bottom: 120px;
     text-align: center;
 }
 
@@ -364,7 +352,7 @@ justify-content: space-around;
     /*Слайдер*/
 
 .swiper {
-    width: 600px;
+    width: 850px;
 }
 
 .swiper-button-next,
@@ -395,7 +383,7 @@ justify-content: space-around;
   }
 
 .block-margin {
-    height: 70px;
+    height: 30px;
   }
 
   .swiper-button-prev {
@@ -404,4 +392,46 @@ justify-content: space-around;
   
   .swiper-button-next {
     right: 0;
+  }
+
+
+    .slider-pic {
+        margin-bottom: 120px;
+        text-align: center;
+
+}
+
+    .pic-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+
+  .block-margin-pic {
+    height: 35px;
+  }
+
+  .dop-info {
+    margin-bottom: 45px;
+    text-align: center;
+
+  }
+
+  .dop-info-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .dop-info-descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .dop-info-image {
+    padding: 10px;
+    border-radius: 40px;
   }
