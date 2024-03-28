@@ -23,47 +23,47 @@ body {
   }
 
 .container {
-    max-width: 1230px;
+    max-width: 1175px;
     padding: 0 30px;
     margin: 0 auto;
 }
 
-
-.header {
-    background-color: rgb(255, 255, 255);
+.header-top {
+    display: flex;
 }
 
-.header-nav {
-    position: fixed;
-    padding: 90px;
-    z-index: 3;
+.header-top-line {
     display: flex;
+    max-width: 1175px;
+    row-gap: 50px;
     padding-top: 30px;
     padding-bottom: 10px;
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
-    left: 0;
-    top: 0;
-    right: 0;
-    -webkit-box-align: center;
-    -webkit-box-pack: center ;
-}
-
-.nav {
-    display: flex;
+    
 }
 
 .nav-list {
     display: flex;
-    column-gap: 10px;
-    align-items: center;
+    margin-right: 80px;
+    
+}
+.nav-item{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+
+}
+
+.header-logo {
+    margin-right: 150px;
 }
 
 
 .tel {
-    margin-left: 70px;
+    
     color: #313131;
     font-size: 25px;
     border-bottom: solid 2px #1EAAD2;
@@ -75,18 +75,11 @@ body {
     transition:cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
-.header-row {
-    width: 1300px;
+
+.header-bottom {
     display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-    padding-top: 30px;
 }
 
-.header-contant {
-    max-width: 700px;
-    margin-top: 150px;
-}
 
 
 .header-heading {
@@ -118,6 +111,8 @@ body {
     border-radius: 20px;
     font-family: 'TT Firs Nuen';
 }
+
+
 
 
 .korobov_oleg-column {
