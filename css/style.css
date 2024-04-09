@@ -29,40 +29,33 @@ body {
 }
 
 .header-top {
-    display: flex;
+    padding-top: 30px;
 }
 
-.header-top-line {
+.header-nav {
     display: flex;
-    max-width: 1175px;
-    row-gap: 50px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    background-color: white;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.nav-list {
-    display: flex;
-    margin-right: 80px;
-    
+.nav {
+display: flex;
+align-items: center;
+
+
 }
-.nav-item{
+
+.header-list {
+    margin-right: 30px;
+}
+
+.header-item {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
-
-
 }
 
-.header-logo {
-    margin-right: 150px;
-}
-
-
-.tel {
+   
+.tel-box {
     
     color: #313131;
     font-size: 25px;
@@ -77,6 +70,10 @@ body {
 
 
 .header-bottom {
+    display: flex;
+}
+
+.header-hero{
     display: flex;
 }
 

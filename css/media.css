@@ -1,5 +1,6 @@
-@media (max-width: 480px) {
-    .header-top-line {
-        flex-direction: column;
+@media (max-width: 800px) {
+    .container {
+        max-width: 600px;
     }
+    
 }
